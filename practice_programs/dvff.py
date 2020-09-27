@@ -1,0 +1,2 @@
+s="dwebdewj"
+print(s)

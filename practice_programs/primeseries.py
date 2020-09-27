@@ -1,0 +1,23 @@
+n1=int(input("Enter first num-"))
+n2=int(input("Enter range-"))
+p=[2]
+a=[]
+a.append(n1)
+i=3
+while(len(p)<n2-1):
+    for j in range(2,i):
+        if(i%j==0):
+            break
+    else:
+        p.append(i)
+    i+=2
+print (p)
+
+sum=0
+for i in range(0,len(p)):
+    sum=p[i]+a[i]
+    a.append(sum)
+
+for i in a:
+    print(i, end=' ')
+

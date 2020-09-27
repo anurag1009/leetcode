@@ -1,0 +1,14 @@
+l=['!','#','$','%','&','*','@','^','~']
+tc=int(raw_input())
+while(tc!=0):
+    n=int(raw_input())
+    s1=list(raw_input().split())
+    s2=list(raw_input().split())
+
+    p=""
+    for i in range(len(l)):
+        if l[i] in s1 and l[i] in s2:
+            p=p+l[i]+" "
+    print(p)
+    print(p)
+    tc-=1
